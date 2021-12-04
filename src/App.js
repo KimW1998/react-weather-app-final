@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="container">
         <h1>
           Weather App
         </h1>
@@ -13,6 +14,7 @@ function App() {
         and is {" "}
         <a href="https://github.com/KimW1998/react-weather-app-final" target="_blank" rel="noreferrer"> Open-sourced on GitHub</a>
         </footer>
+    </div>
     </div>
   );
 }
