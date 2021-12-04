@@ -1,7 +1,30 @@
 .Weather {
     border: 1px solid grey;
+    color: grey;
+    padding: 16px;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+.Weather form {
+
 }
 
 .Weather h1 {
-color: grey;
+font-size: 24px;
+font-weight: 100;
+line-height: 29px;
+margin: 20px 0 0 0;
+}
+
+.Weather ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Weather li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
 }
