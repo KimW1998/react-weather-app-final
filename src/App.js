@@ -1,13 +1,18 @@
+import React from "react";
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <h1>
-          Hello
+          Weather App
         </h1>
-      </header>
+        <footer>This project was coded by {" "} 
+        <a href="https://clever-varahamihira-8d6483.netlify.app" target="_blank" rel="noreferrer"> Kim Wauben </a>
+        an is {" "}
+        <a href="https://github.com/KimW1998/react-weather-app-final" target="_blank" rel="noreferrer"> Open-sourced on GitHub</a>
+        </footer>
     </div>
   );
 }
