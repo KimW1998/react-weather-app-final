@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Amsterdam"/>
+        <Weather defaultcity="Amsterdam"/>
         <footer>This project was coded by {" "} 
         <a href="https://clever-varahamihira-8d6483.netlify.app" target="_blank" rel="noreferrer"> Kim Wauben </a>
         and is {" "}
